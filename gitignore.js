@@ -7,6 +7,7 @@ const pify = require('pify');
 const slash = require('slash');
 
 const DEFAULT_IGNORE = [
+	'**/build/**',
 	'**/node_modules/**',
 	'**/bower_components/**',
 	'**/flow-typed/**',
