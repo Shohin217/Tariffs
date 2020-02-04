@@ -1,0 +1,163 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.clearfix:after {
+	content: '';
+	display: table;
+	width: 100%;
+	clear:both;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 20px;
+}
+p{
+  margin: 0;
+}
+
+#root h1{
+  text-align: center;
+}
+
+.tariff__item{
+  position: relative;
+    margin: 0 auto;
+    width: 1176px;
+    padding: 20px 0;
+    border-bottom: 1px solid  #bfbfbf;;
+    border-top: 1px solid  #bfbfbf;;
+}
+
+.tariff__item div{
+  width: 130px;
+  float: left;
+}
+.tariff__item div:nth-child(1){
+  width: 260px;    
+  margin-left: 45px;
+}
+.tariff__item div:nth-child(2){
+width: 220px;
+}
+.tariff__item div:nth-child(3){
+  width: 250px;
+}
+.tariff_name{
+  font-size: 16px;
+  font-weight: bold;
+}
+.tariff_price{
+    margin-right: 8px;
+    font-size: 51px;
+    font-weight: bold;
+    float: left;
+}
+.tariff_R{
+  margin-top: 8px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.tariff_mounth{
+  color: #404040;
+}
+.tariff_gb{
+  font-size: 26px ;
+  font-weight: 300;
+}
+
+.tariff_social{
+  position: relative;
+}
+
+.tariff_social img{
+  border-radius: 50%;
+  border: 1px solid white;
+  width:30px;
+  height: 30px;
+  position: absolute;
+  left: 151px;
+}
+.tariff_social img:nth-child(2){
+  left: 124px;
+}
+.tariff_social img:nth-child(3){
+  left: 98px;
+}
+.tariff_social img:nth-child(4){
+  left: 73px;
+}
+.tariff_social img:nth-child(5){
+  left: 46px;
+}
+.tariff_social img:nth-child(6){
+  left: 23px;
+}
+.tariff_social img:nth-child(7){
+  left: 0px;
+}
+
+.minutes{
+  font-size: 26px;
+}
+.unlim_minutes{
+  font-size: 15px
+}
+
+.tariff_sms p{
+  font-size: 26px;
+}
+
+.tariff_byBtn{
+  color: black;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 10px 25px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: 15px;
+}
+.tariff_byBtn:hover{
+  color: #656565;
+  border: 1px solid #656565;
+}
+.tariff_settings{
+  margin-top: 20px;
+}
+.tariff_settings img{
+  width: 21px;
+  float: left;
+  margin-right: 7px;
+}
+.tariff_settings p {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.tariff_settings:hover{
+  color: #656565;
+}
+.tariff_bay{
+  width: 200px !important;
+  float: right !important;
+  
+}
+.tariff_GB{
+  margin-right: 20px;
+}
+.best_seller{
+  position: absolute;
+  left: 228px;
+  top: 0px;
+}
